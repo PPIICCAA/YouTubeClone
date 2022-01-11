@@ -15,6 +15,13 @@
 .imgYouTube {
     width: 7rem;
 }
+.divSearch {
+    border:1px solid grey;
+}
 .imgSearch {
     width: 2rem;
+}
+.inputSearch {
+    height: 2rem;
+    width: 39rem;
 }
