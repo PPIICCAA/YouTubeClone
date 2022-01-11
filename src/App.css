@@ -1,0 +1,20 @@
+:root {
+    --width-max: 100vw
+}
+.head {
+    width: var(--width-max);
+    background-color:tomato;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head div {
+    display: flex;
+    align-items: center;
+}
+.imgYouTube {
+    width: 7rem;
+}
+.imgSearch {
+    width: 2rem;
+}

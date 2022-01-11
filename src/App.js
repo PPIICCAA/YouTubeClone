@@ -1,15 +1,27 @@
 import './App.css';
-import Head from "./components/Head.js";
-import Body from "./components/Body.js";
-import Fotter from "./components/Fotter.js";
 
 function App() {
   return (
-    <div className="App">
-      w
-      <Head />
-      <Body />
-      <Fotter />
+    <div className="">
+      <div className='head'>
+        <div>
+          <button>|||</button>
+          <img className='imgYouTube' alt="YouTube" src='https://www.freeiconspng.com/thumbs/youtube-logo-png/youtube-logo-png-transparent-image-5.png' />
+        </div>
+        <div>
+          <input placeholder='Buscar'></input>
+          <button>
+          <img className='imgSearch' alt="Search" src="https://www.seekpng.com/png/detail/87-872326_freetoedit-magnifyingglass-magnifying-glass-lupa-zoom-magnifying-glass.png" />
+          </button>
+        </div>
+        <div>
+          <button>Camera</button>
+          <button>More</button>
+          <button>Notifications</button>
+          <button>Acount</button>
+        </div>
+      </div>
+d
     </div>
   );
 }
